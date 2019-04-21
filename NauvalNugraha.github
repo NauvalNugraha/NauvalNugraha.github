@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>MY Web</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<style>
+		html,body{
+			width: 100%;
+			height: 100%; }
+			
+		.space{
+			width: 100px;
+			height: 80px; }
+			
+		.head{
+			width: 100p%;
+			height: 100%;
+			background-image: url("http://hdqwalls.com/download/deadpool-warzone-ri-1920x1080.jpg");
+			background-size: cover; }
+			
+		.nav-link{
+			margin-left: 15px; }
+			
+		.navbar{
+			margin-top: 30px;
+			background-color: transparent; 
+			transition: .5s; }			
+			
+		.opc{
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.445); }
+			
+		.caption{
+			color: white;
+			padding-top: 270px; }
+			
+		.btn-rounded{
+			padding: 7px 50px;
+			border-radius: 100px; }
+		
+		.box-skill{
+			background: linear-gradient(to right, #007bff, #017bff47);
+			width: 100%;
+			border-radius: 5px;
+			padding: 50px;
+			color: white;
+			box-shadow: 0px 2px 5px #00001a;}
+	</style>
+	
+	
+  </head>
+  <body>
+  
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+		<div class="container">
+  <a class="navbar-brand" href="#">
+  <img src="panda.png" alt="logo" width="100px" height="auto"> 
+  
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#biodata">Biodata <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#skill">Skill <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
+      </li>
+     
+    </ul>
+    
+  </div>
+  </div>
+</nav>
+	
+	<div class="head">	
+			<div class="opc">
+			<div class="container caption">
+			<h5>My name is Opulele</h5>
+			<h1 style="font-size: 3em;">I'm web Developer</h1>
+			<p>
+				lorem ipsum, dolor sit amet constectur adipisicing elit.
+			
+			</p>
+			<a href="#" class="btn btn-primary btn-rounded"> GET STARTED </a>
+			</div>
+			</div>
+	</div>
+	
+	<div class="space"></div>
+   
+	<section id="biodata">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-sm-12" style="margin-bottom: 20px;">
+					<center>
+						<img src="data:image/jpeg;base64,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" alt="My Photo" width="80%" height="auto">
+				</center>
+				</div>
+				<div class="col-lg-6 col-sm-12" style="margin-bottom: 20px;">
+				
+					<h5>My name is Opulele</h5>
+					<label><b>web developer</b></label>
+					<br><br>			
+					<p>
+						lorem ipsum, dolor sit amet constectur adipisicing elit.
+					<p>
+						lorem ipsum, dolor sit amet constectur adipisicing elit.
+					</p>
+					<a href="#" class="btn btn-primary btn-rounded"> Download CV </a>
+					<a href="#" class="btn btn-primary btn-rounded"> HIRE ME </a>
+				</div>
+			</div>
+		</div>
+	</section>
+			
+			
+	<div class="space"></div>
+	
+	<section id="Skill">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<center>
+					<h2>SKILL</h2>
+					<hr>
+					</center>
+					</div>
+				
+				<div class="col-lg-4 col-sm-12" style="margin-bottom: 20px;">
+					<div class="box-skill text-center">
+					<i class="fab fa-html5" style="font-size: 2em;"></i>
+					<br>
+					<b>HTML5</b>
+				</div>
+				</div>
+				
+					<div class="col-lg-4 col-sm-12" style="margin-bottom: 20px;">
+					<div class="box-skill text-center">
+					<i class="fab fa-css3" style="font-size: 2em;"></i>
+					<br>
+					<b>CSS3</b>
+				</div>
+				</div>
+				
+					<div class="col-lg-4 col-sm-12" style="margin-bottom: 20px;">
+					<div class="box-skill text-center">
+					<i class="fab fa-bootstrap" style="font-size: 2em;"></i>
+					<br>
+					<b>Bootstrap</b>
+				</div>
+				</div>
+				</div>
+	</section>
+	
+	<div class="space"></div>
+	
+		<section style="width:100%; background-color: #1f1f1f;">
+			<div class="text-center" style="padding: 10px; color: white;">
+				<h5>&copy;copyright 2019.</h5>
+			</div>
+		</section>
+			
+				
+				
+				
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+	<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			if($(this).scrollTop() > 50){
+				$('.navbar').css('background-color','rgba(0, 0, 0, 0.63)');
+				$('.navbar').css('margin-top','0px');
+				}else{
+				$('.navbar').css('background-color','transparent');
+				$('.navbar').css('margin-top','30px');
+			}
+		});
+		});
+	</script>
+  </body>
+</html>
